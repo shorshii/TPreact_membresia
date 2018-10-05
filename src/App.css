@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.pepe1, .pepe2{
+  float: left;
+  width: 50%;
+} 
+
+.left, .right{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+  background: #222;
+  height: 300px;
+  color: aliceblue;
+  margin: 10px;
+  padding-top: 1px;
+}
+.btn1, .btn2{
+  font-size: 1.5em;
+  margin: 10px;
+  width: 48%;
+  inline-size: 150px;
+  }
+
+ul {
+  list-style: none;
+  font-family: 'Courier New';
+  font-size: 20px;
+}
+
+li{
+  padding: 8pt;
+}
+
+.country{
+  margin: auto;
+  width: 80%;
+  padding: 5px;
+  }
+
+.tarjeta{
+  margin: auto;
+  width: 50%;
+  padding: 10px
+}
+
+.footer { 
+  background-color: #222;
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 50px;
+}
+
+.footer2 { 
+  background-color: #222;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 50px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
