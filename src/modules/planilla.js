@@ -286,7 +286,6 @@ class Planilla extends React.Component {
            control={
            <Checkbox color="secondary"  
             name="termsAndConditions"
-            defaultChecked={this.state.complete}
             checked={this.state.termsAndConditions}
             type="checkbox"
             onChange={this.handleCondiciones.bind(this)}/>}
